@@ -324,10 +324,30 @@ var Nav = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Nav, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "nav-bar"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
         to: "/",
-        id: "logo"
-      }, "Vincent Pang");
+        id: "nav-logo"
+      }, "Vincent Pang"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-about"
+      }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-experience"
+      }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-education"
+      }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-projects"
+      }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-interest"
+      }, "Interest"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
+        to: "/",
+        id: "nav-contact"
+      }, "Contact"));
     }
   }]);
 
@@ -440,7 +460,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: Comfortaa;\n}\n\na {\n  font-family: Comfortaa;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;EACtB,qBAAqB;AACvB","sourcesContent":["body {\n  font-family: Comfortaa;\n}\n\na {\n  font-family: Comfortaa;\n  text-decoration: none;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  font-family: Comfortaa;\n}\n\na {\n  text-decoration: none;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 28px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 12px 0px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-logo {\n  font-size: 22px;\n  font-weight: bold;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"AAAA,mBAAmB;AACnB,mBAAmB;AACnB,mBAAmB;;AAEnB;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,qBAAqB;AACvB;;AAEA,gBAAgB;AAChB,gBAAgB;AAChB,gBAAgB;;AAEhB;EACE,eAAe;EACf,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE;AACF;;AAEA;EACE,eAAe;EACf,iBAAiB;AACnB","sourcesContent":["/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  font-family: Comfortaa;\n}\n\na {\n  text-decoration: none;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 28px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 12px 0px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-logo {\n  font-size: 22px;\n  font-weight: bold;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

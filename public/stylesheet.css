@@ -1,8 +1,44 @@
+/******************/
+/***** GLOBAL *****/
+/******************/
+
+:root {
+  --tiffany: #0ABAB5;
+  --deepskyblue: #00CCFF;
+}
+
 body {
   font-family: Comfortaa;
 }
 
 a {
-  font-family: Comfortaa;
   text-decoration: none;
+}
+
+/***************/
+/***** NAV *****/
+/***************/
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+  text-align: right;
+  padding-top: 28px;
+  padding-right: 28px;
+}
+
+#nav-bar > a {
+  display: block;
+  margin: 12px 0px;
+}
+
+#nav-bar > a:hover {
+  color: var(--deepskyblue)
+}
+
+#nav-logo {
+  font-size: 22px;
+  font-weight: bold;
 }
