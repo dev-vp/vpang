@@ -158,6 +158,11 @@ a {
   font-size: 50px;
 }
 
+#home > h1:nth-child(3) {
+  margin-left: 50px;
+  font-size: 50px;
+}
+
 #home-2 {
   text-align: center;
   margin-top: 10vh;
@@ -196,6 +201,10 @@ svg {
   margin: 80px auto;
 }
 
+rect {
+  opacity: 70%;
+}
+
 rect:hover {
-  opacity: 50%;
+  opacity: 100%;
 }

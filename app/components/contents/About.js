@@ -11,15 +11,21 @@ class About extends React.Component{
       </p>
       <svg>
         <g>
-          <rect x="0" y="0" width="50vw" height="38" fill="#0ABAB5"></rect>
+          <rect x="0" y="0" width="50vw" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="50vw" dur="1s" fill="freeze" />
+          </rect>
           <text x="8" y="28" fontFamily="Comfortaa" fontSize="20" fill="black">English</text>
         </g>
         <g>
-          <rect x="0" y="60" width="35vw" height="38" fill="#0ABAB5"></rect>
+          <rect x="0" y="60" width="35vw" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="35vw" dur="1.5s" fill="freeze" />
+          </rect>
           <text x="8" y={`${28+38+20}`} fontFamily="Comfortaa" fontSize="20" fill="black">Chinese (中文)</text>
         </g>
         <g>
-          <rect x="0" y="120" width="25vw" height="38" fill="#0ABAB5"></rect>
+          <rect x="0" y="120" width="25vw" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="25vw" dur="2s" fill="freeze" />
+          </rect>
           <text x="8" y={`${28+(38+20)*2}`} fontFamily="Comfortaa" fontSize="20" fill="black">Japanese (日本語)</text>
         </g>
     </svg>
