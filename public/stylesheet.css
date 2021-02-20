@@ -8,11 +8,35 @@
 }
 
 body {
+  background-color: black;
   font-family: Comfortaa;
+  padding: 28px;
+  color: white;
 }
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+.tiffany {
+  color: var(--tiffany);
+}
+
+.deepsky {
+  color: var(--deepskyblue);
+}
+
+.red {
+  color: red;
+}
+
+#background-img {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
 }
 
 /***************/
@@ -26,12 +50,13 @@ a {
   width: 250px;
   text-align: right;
   padding-top: 28px;
-  padding-right: 28px;
+  padding-right: 68px;
 }
 
 #nav-bar > a {
   display: block;
-  margin: 12px 0px;
+  margin: 18px 0px;
+  font-size: 23px;
 }
 
 #nav-bar > a:hover {
@@ -39,6 +64,47 @@ a {
 }
 
 #nav-logo {
-  font-size: 22px;
+  font-size: 30px !important;
   font-weight: bold;
+}
+
+/*******************/
+/***** CONTENT *****/
+/*******************/
+
+#content-container {
+  height: 80vh;
+  margin-right: 250px;
+  padding-top: 38px;
+  padding-left: 38px;
+  padding-bottom: 58px;
+  background: transparent;
+  fill: none;
+}
+
+/****************/
+/***** HOME *****/
+/****************/
+#home {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#home > h1:nth-child(2) {
+  margin-left: 20px;
+}
+
+#home-2 {
+  /* margin-top: 120px; */
+  text-align: center;
+  margin-top: 20vh;
+  color: gray;
+}
+
+#new-york:hover {
+  font-size: 28px;
+}
+
+#japan:hover {
+  font-size: 28px;
 }

@@ -1,5 +1,7 @@
-import Nav from './Nav'
+import Nav from './Nav';
+import Content from './Content';
 
 export {
-  Nav
-}
+  Nav,
+  Content
+};
