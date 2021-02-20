@@ -137,7 +137,7 @@ a {
 
 #content-container {
   height: 80vh;
-  margin-right: 250px;
+  margin-right: 300px;
   padding-top: 38px;
   padding-left: 38px;
   padding-bottom: 58px;
@@ -159,9 +159,8 @@ a {
 }
 
 #home-2 {
-  /* margin-top: 120px; */
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
   color: gray;
 }
 
@@ -171,4 +170,32 @@ a {
 
 #japan {
   font-size: 35px;
+}
+
+/*****************/
+/***** ABOUT *****/
+/*****************/
+
+#about-container > p{
+  font-size: 20px;
+  color: lightgray;
+}
+
+#profile-img {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+  opacity: 80%;
+}
+
+svg {
+  /* margin-top: 50px;
+  margin-left: 30px; */
+  width: 70vw;
+  height: 200px;
+  margin: 80px auto;
+}
+
+rect:hover {
+  opacity: 50%;
 }
