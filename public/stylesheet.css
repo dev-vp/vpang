@@ -190,6 +190,11 @@ a {
   width: 180px;
   float: left;
   margin-right: 20px;
+  opacity: 50%;
+  transition-duration: 1s;
+}
+
+#profile-img:hover {
   opacity: 80%;
 }
 
@@ -203,6 +208,7 @@ svg {
 
 rect {
   opacity: 70%;
+  transition-duration: 1s;
 }
 
 rect:hover {
