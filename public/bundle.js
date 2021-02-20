@@ -274,6 +274,79 @@ module.exports = _typeof;
 
 /***/ }),
 
+/***/ "./app/components/Backdrop.js":
+/*!************************************!*\
+  !*** ./app/components/Backdrop.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+
+
+
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var Backdrop = /*#__PURE__*/function (_React$Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(Backdrop, _React$Component);
+
+  var _super = _createSuper(Backdrop);
+
+  function Backdrop() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Backdrop);
+
+    return _super.apply(this, arguments);
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Backdrop, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "background-img-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("img", {
+        id: "nyc",
+        className: "background-img",
+        src: "./nyc-skyline.png"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("img", {
+        id: "redny",
+        className: "background-img",
+        src: "./red-skyline.png"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("img", {
+        id: "tokyo",
+        className: "background-img",
+        src: "./tokyo-skyline.png"
+      }));
+    }
+  }]);
+
+  return Backdrop;
+}(react__WEBPACK_IMPORTED_MODULE_5__.Component);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Backdrop);
+
+/***/ }),
+
 /***/ "./app/components/Content.js":
 /*!***********************************!*\
   !*** ./app/components/Content.js ***!
@@ -462,27 +535,12 @@ var Home = /*#__PURE__*/function (_React$Component) {
   var _super = _createSuper(Home);
 
   function Home() {
-    var _this;
-
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Home);
 
-    _this = _super.call(this);
-    _this.onHoverBG = _this.onHoverBG.bind(_this.onHoverBG);
-    return _this;
+    return _super.apply(this, arguments);
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Home, [{
-    key: "onHoverBG",
-    value: function onHoverBG(e) {
-      if (e.target.id === 'new-york') {
-        document.getElementById('background-img').src = './nyc-skyline.png';
-      }
-
-      if (e.target.id === 'japan') {
-        document.getElementById('background-img').src = './tokyo-skyline.png';
-      }
-    }
-  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
@@ -493,12 +551,10 @@ var Home = /*#__PURE__*/function (_React$Component) {
         id: "home-2"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Born and raised in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", {
         id: "new-york",
-        className: "deepsky",
-        onMouseOver: this.onHoverBG
+        className: "deepsky"
       }, "New York"), ", and currently residing in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", {
         id: "japan",
-        className: "red",
-        onMouseOver: this.onHoverBG
+        className: "red"
       }, "Japan"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null)));
     }
   }]);
@@ -538,10 +594,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Nav": () => (/* reexport safe */ _Nav__WEBPACK_IMPORTED_MODULE_0__.default),
-/* harmony export */   "Content": () => (/* reexport safe */ _Content__WEBPACK_IMPORTED_MODULE_1__.default)
+/* harmony export */   "Content": () => (/* reexport safe */ _Content__WEBPACK_IMPORTED_MODULE_1__.default),
+/* harmony export */   "Backdrop": () => (/* reexport safe */ _Backdrop__WEBPACK_IMPORTED_MODULE_2__.default)
 /* harmony export */ });
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Nav */ "./app/components/Nav.js");
 /* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Content */ "./app/components/Content.js");
+/* harmony import */ var _Backdrop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Backdrop */ "./app/components/Backdrop.js");
+
 
 
 
@@ -602,7 +661,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Main, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_index__WEBPACK_IMPORTED_MODULE_6__.Nav, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_index__WEBPACK_IMPORTED_MODULE_6__.Content, null));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_index__WEBPACK_IMPORTED_MODULE_6__.Nav, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_index__WEBPACK_IMPORTED_MODULE_6__.Content, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_index__WEBPACK_IMPORTED_MODULE_6__.Backdrop, null));
     }
   }]);
 
@@ -633,7 +692,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n#background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 23px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 250px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n}\n\n#home-2 {\n  /* margin-top: 120px; */\n  text-align: center;\n  margin-top: 20vh;\n  color: gray;\n}\n\n#new-york:hover {\n  font-size: 28px;\n}\n\n#japan:hover {\n  font-size: 28px;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"AAAA,mBAAmB;AACnB,mBAAmB;AACnB,mBAAmB;;AAEnB;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;EACvB,sBAAsB;EACtB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,SAAS;EACT,OAAO;EACP,YAAY;AACd;;AAEA,gBAAgB;AAChB,gBAAgB;AAChB,gBAAgB;;AAEhB;EACE,eAAe;EACf,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE;AACF;;AAEA;EACE,0BAA0B;EAC1B,iBAAiB;AACnB;;AAEA,oBAAoB;AACpB,oBAAoB;AACpB,oBAAoB;;AAEpB;EACE,YAAY;EACZ,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;EACpB,uBAAuB;EACvB,UAAU;AACZ;;AAEA,iBAAiB;AACjB,iBAAiB;AACjB,iBAAiB;AACjB;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB","sourcesContent":["/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n#background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 23px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 250px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n}\n\n#home-2 {\n  /* margin-top: 120px; */\n  text-align: center;\n  margin-top: 20vh;\n  color: gray;\n}\n\n#new-york:hover {\n  font-size: 28px;\n}\n\n#japan:hover {\n  font-size: 28px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n}\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 250px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home-2 {\n  /* margin-top: 120px; */\n  text-align: center;\n  margin-top: 20vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"AAAA,mBAAmB;AACnB,mBAAmB;AACnB,mBAAmB;;AAEnB;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;EACvB,sBAAsB;EACtB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA,uBAAuB;AACvB,uBAAuB;AACvB,uBAAuB;;AAEvB;EACE,YAAY;EACZ,eAAe;EACf,SAAS;EACT,OAAO;EACP,YAAY;EACZ,iBAAiB;EACjB;;;uCAGqC;AACvC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE;IACE,UAAU;EACZ;EACA;IACE,UAAU;EACZ;EACA;IACE,WAAW;EACb;AACF;;AAEA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;AACA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;AACA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;;AAEA,gBAAgB;AAChB,gBAAgB;AAChB,gBAAgB;;AAEhB;EACE,eAAe;EACf,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE;AACF;;AAEA;EACE,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,0BAA0B;EAC1B,iBAAiB;AACnB;;AAEA,oBAAoB;AACpB,oBAAoB;AACpB,oBAAoB;;AAEpB;EACE,YAAY;EACZ,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;EACpB,uBAAuB;EACvB,UAAU;AACZ;;AAEA,iBAAiB;AACjB,iBAAiB;AACjB,iBAAiB;AACjB;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB","sourcesContent":["/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue)\n}\n\n#nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n}\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 250px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home-2 {\n  /* margin-top: 120px; */\n  text-align: center;\n  margin-top: 20vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35231,7 +35290,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app_main__WEBPACK_IMPORTED_MODULE_2__.default, null), document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app_main__WEBPACK_IMPORTED_MODULE_2__.default, null), document.getElementById('app')); // setInterval(()=>{
+//   let target = document.getElementById('background-img');
+//   if(target.src.includes('nyc')){target.src = './red-skyline.png'}
+//   else if (target.src.includes('red')){target.src = './tokyo-skyline.png'}
+//   else if(target.src.includes('tokyo')){target.src = './nyc-skyline.png'}
+// }, 5000)
 })();
 
 /******/ })()
