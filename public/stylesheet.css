@@ -31,12 +31,17 @@ a {
   color: red;
 }
 
-#background-img {
+.background-img {
   width: 100vw;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: -10;
+  opacity: 10%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 /***************/
@@ -56,11 +61,16 @@ a {
 #nav-bar > a {
   display: block;
   margin: 18px 0px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #nav-bar > a:hover {
   color: var(--deepskyblue)
+}
+
+#nav-bar > a:not(:nth-child(1)):hover {
+  font-size: 25px;
+  margin: -3px 0px;
 }
 
 #nav-logo {
