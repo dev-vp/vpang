@@ -24,7 +24,7 @@ class Education extends React.Component{
             <h3>Fordham University - School of Law</h3>
             <h4>Masters Degree in Corporate Compliance</h4>
             <p className="gray-italics">New York, NY</p>
-            <p id="fordham-details">A 2-year program covering fundamental legal topics such as, but not limited to, corporate law, legal writing, legislation, and regulation. Additionally, the compliance related coursework consisted of topics such as Risk Management, Anti-Money Laundering, and Global Corporate Compliance. </p>
+            <p id="fordham-details">A 2-year program covering fundamental legal topics such as, but not limited to, corporate law, legal writing, legislation, and regulation. Additionally, the compliance related coursework consisted of Risk Management, Anti-Money Laundering, and Global Corporate Compliance. </p>
           </div>
         </div>
         <div id="liu" className="school">
@@ -35,7 +35,7 @@ class Education extends React.Component{
             <h3>Long Island University - C.W. Post</h3>
             <h4>Bachelors Degree in Intl. Business Administration</h4>
             <p className="gray-italics">Brookville, NY</p>
-            <p id="liu-details">TBD</p>
+            <p id="liu-details">A 4-year program majoring in Business Administration with a focus in international realtions.</p>
           </div>
         </div>
       </div>

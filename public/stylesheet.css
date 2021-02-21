@@ -251,6 +251,10 @@ rect:hover {
   margin-right: 50px;
 }
 
+.school-details {
+  width: 500px;
+}
+
 .school-details > h3 {
   color: var(--deepskyblue);
   margin-bottom: 0px;
@@ -265,9 +269,29 @@ rect:hover {
   margin: 8px;
 }
 
+.school-details > p:nth-last-child(1){
+  font-size: 12px;
+  color: lightgray;
+  opacity: 30%;
+  transition: 2s;
+}
+
+#fullstack:hover #fullstack-details{
+  opacity: 100%;
+}
+
+#fordham:hover #fordham-details{
+  opacity: 100%;
+}
+
+#liu:hover #liu-details{
+  opacity: 100%;
+}
+
 /* SCHOOL DETAILS - HOVER EFFECT */
-.school-details {
+/* .school-details {
   transition: 1s;
+  transition: ease-in-out;
 }
 
 #fullstack-details {
@@ -293,4 +317,4 @@ rect:hover {
 
 #liu:hover #liu-details {
   display: initial;
-}
+} */
