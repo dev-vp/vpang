@@ -251,7 +251,6 @@ rect:hover {
 /*********************/
 #education-container {
   padding-bottom: 80px;
-  animation: fadein 3s;
 }
 
 #education-container > h1 {
@@ -263,6 +262,16 @@ rect:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.school:nth-of-type(1) {
+  animation: fadein 3s;
+}
+.school:nth-of-type(2) {
+  animation: fadein 6s;
+}
+.school:nth-of-type(3) {
+  animation: fadein 9s;
 }
 
 .school-year {
