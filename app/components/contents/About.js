@@ -7,7 +7,7 @@ class About extends React.Component{
       <h1 className="tiffany">About Me.</h1>
       <img id="profile-img" src="./profile-img.jpg" />
       <p>
-        Prior to becoming a Software Engineer, I worked as a Risk and Compliance Officer, and spent a large portion of my time preemptively mitigating risk, coordinating regulatory examinations, and analyzing data for any applicable risk landscape related to the bank’s operation. However, the crux of my career change primarily stemmed from my growing interest and natural aptitude for technology. Since becoming a full-time engineer, it much clearer now that I happen to find much of my satisfaction from solving challenging problems.
+        Prior to becoming a <span>Software Engineer</span>, I worked as a Risk and Compliance Officer, and spent a large portion of my time preemptively mitigating risk, coordinating regulatory examinations, and <span>analyzing data</span> for any applicable risk landscape related to the bank’s operation. However, the crux of my career change primarily stemmed from my growing interest and natural aptitude for <span>technology</span>. Since becoming a full-time engineer, it much clearer now that I happen to find much of my satisfaction from <span>solving challenging problems</span> and <span>designing software.</span>
       </p>
       <svg>
         <g>
