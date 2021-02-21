@@ -40,6 +40,27 @@ a {
   font-style: italic;
 }
 
+/*********************/
+/***** ANIMATION *****/
+/*********************/
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes bgTransition {
+  0% {
+    opacity:0%;
+  }
+  50% {
+    opacity:0%;
+  }
+  100% {
+    opacity:25%;
+  }
+}
+
 /**********************/
 /***** BACKGROUND *****/
 /**********************/
@@ -67,18 +88,6 @@ a {
 
 #tokyo {
   opacity: 0%;
-}
-
-@keyframes bgTransition {
-  0% {
-    opacity:0%;
-  }
-  50% {
-    opacity:0%;
-  }
-  100% {
-    opacity:25%;
-  }
 }
 
 #background-img-container img:nth-child(1) {
@@ -163,6 +172,10 @@ a {
   padding-left: 50px;
 }
 
+#home > h1 {
+  animation: fadein 5s;
+}
+
 #home > h1:nth-child(2) {
   margin-left: 20px;
   font-size: 50px;
@@ -177,6 +190,7 @@ a {
   text-align: center;
   margin-top: 10vh;
   color: gray;
+  animation: fadein 8s;
 }
 
 #new-york{
@@ -190,10 +204,6 @@ a {
 /*****************/
 /***** ABOUT *****/
 /*****************/
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
 
 #about-container > p{
   font-size: 20px;
@@ -241,6 +251,7 @@ rect:hover {
 /*********************/
 #education-container {
   padding-bottom: 80px;
+  animation: fadein 3s;
 }
 
 #education-container > h1 {
