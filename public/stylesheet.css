@@ -31,6 +31,15 @@ a {
   color: red;
 }
 
+.gray {
+  color: gray;
+}
+
+.gray-italics {
+  color: gray;
+  font-style: italic;
+}
+
 /**********************/
 /***** BACKGROUND *****/
 /**********************/
@@ -222,4 +231,66 @@ rect {
 
 rect:hover {
   opacity: 100%;
+}
+
+/*********************/
+/***** EDUCATION *****/
+/*********************/
+
+#education-container > h1 {
+  margin-bottom: 50px;
+}
+
+.school {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.school-year {
+  margin-right: 50px;
+}
+
+.school-details > h3 {
+  color: var(--deepskyblue);
+  margin-bottom: 0px;
+}
+
+.school-details > h4 {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.school-details > p {
+  margin: 8px;
+}
+
+/* SCHOOL DETAILS - HOVER EFFECT */
+.school-details {
+  transition: 1s;
+}
+
+#fullstack-details {
+  display: none;
+}
+
+#fullstack:hover #fullstack-details {
+  display: initial;
+}
+
+#fordham-details {
+  display: none;
+}
+
+#fordham:hover #fordham-details {
+  display: initial;
+}
+
+
+#liu-details {
+  display: none;
+}
+
+#liu:hover #liu-details {
+  display: initial;
 }

@@ -402,6 +402,9 @@ var Content = /*#__PURE__*/function (_React$Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "content-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
+        path: "/education",
+        component: _contents_index__WEBPACK_IMPORTED_MODULE_6__.Education
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/about",
         component: _contents_index__WEBPACK_IMPORTED_MODULE_6__.About
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
@@ -478,19 +481,19 @@ var Nav = /*#__PURE__*/function (_React$Component) {
         to: "/about",
         id: "nav-about"
       }, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
-        to: "/",
+        to: "/experience",
         id: "nav-experience"
       }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
-        to: "/",
+        to: "/education",
         id: "nav-education"
       }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
-        to: "/",
+        to: "/projects",
         id: "nav-projects"
       }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
-        to: "/",
+        to: "/interest",
         id: "nav-interest"
       }, "Interest"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link, {
-        to: "/",
+        to: "/contact",
         id: "nav-contact"
       }, "Contact"));
     }
@@ -624,6 +627,109 @@ var About = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
+/***/ "./app/components/contents/Education.js":
+/*!**********************************************!*\
+  !*** ./app/components/contents/Education.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+
+
+
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+var Education = /*#__PURE__*/function (_React$Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(Education, _React$Component);
+
+  var _super = _createSuper(Education);
+
+  function Education() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Education);
+
+    return _super.apply(this, arguments);
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Education, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "education-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h1", {
+        className: "tiffany"
+      }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "fullstack",
+        className: "school"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-year"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", {
+        className: "tiffany"
+      }, "2020 - 2021")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-details"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", null, "Fullstack Academy - Software Engineering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h4", null, "Certificate of Completion (533+ hours)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        className: "gray-italics"
+      }, "New York, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        id: "fullstack-details"
+      }, "A 17-week (full-time) course, over a 5-month period with immersive coursework focused on JavaScript as the primary language of choise. The program itself covered data structures, algorithms, closures, and pair programming."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "fordham",
+        className: "school"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-year"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", {
+        className: "tiffany"
+      }, "2016 - 2018")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-details"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", null, "Fordham University - School of Law"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h4", null, "Masters Degree in Corporate Compliance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        className: "gray-italics"
+      }, "New York, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        id: "fordham-details"
+      }, "TBD"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        id: "liu",
+        className: "school"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-year"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", {
+        className: "tiffany"
+      }, "2008 - 2012")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+        className: "school-details"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h3", null, "Long Island University - C.W. Post"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h4", null, "Bachelors Degree in Intl. Business Administration"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        className: "gray-italics"
+      }, "Brookville, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
+        id: "liu-details"
+      }, "TBD"))));
+    }
+  }]);
+
+  return Education;
+}(react__WEBPACK_IMPORTED_MODULE_5__.Component);
+
+;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Education);
+
+/***/ }),
+
 /***/ "./app/components/contents/Home.js":
 /*!*****************************************!*\
   !*** ./app/components/contents/Home.js ***!
@@ -708,10 +814,13 @@ var Home = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Home": () => (/* reexport safe */ _Home__WEBPACK_IMPORTED_MODULE_0__.default),
-/* harmony export */   "About": () => (/* reexport safe */ _About__WEBPACK_IMPORTED_MODULE_1__.default)
+/* harmony export */   "About": () => (/* reexport safe */ _About__WEBPACK_IMPORTED_MODULE_1__.default),
+/* harmony export */   "Education": () => (/* reexport safe */ _Education__WEBPACK_IMPORTED_MODULE_2__.default)
 /* harmony export */ });
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home */ "./app/components/contents/Home.js");
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About */ "./app/components/contents/About.js");
+/* harmony import */ var _Education__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Education */ "./app/components/contents/Education.js");
+
 
 
 
@@ -826,7 +935,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n  transition: .8s;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue);\n}\n\n/* #nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n} */\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 300px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home > h1:nth-child(3) {\n  margin-left: 50px;\n  font-size: 50px;\n}\n\n#home-2 {\n  text-align: center;\n  margin-top: 10vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n\n/*****************/\n/***** ABOUT *****/\n/*****************/\n\n#about-container > p{\n  font-size: 20px;\n  color: lightgray;\n}\n\nspan {\n  transition: 1s;\n}\n\n#about-container > p:hover span {\n  color: red;\n}\n\n#profile-img {\n  width: 180px;\n  float: left;\n  margin-right: 20px;\n  opacity: 50%;\n  transition-duration: 1s;\n}\n\n#profile-img:hover {\n  opacity: 80%;\n}\n\nsvg {\n  /* margin-top: 50px;\n  margin-left: 30px; */\n  width: 70vw;\n  height: 200px;\n  margin: 80px auto;\n}\n\nrect {\n  opacity: 60%;\n  transition-duration: 1s;\n}\n\nrect:hover {\n  opacity: 100%;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"AAAA,mBAAmB;AACnB,mBAAmB;AACnB,mBAAmB;;AAEnB;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;EACvB,sBAAsB;EACtB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,qBAAqB;EACrB,YAAY;AACd;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA,uBAAuB;AACvB,uBAAuB;AACvB,uBAAuB;;AAEvB;EACE,YAAY;EACZ,eAAe;EACf,SAAS;EACT,OAAO;EACP,YAAY;EACZ,iBAAiB;EACjB;;;uCAGqC;AACvC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE;IACE,UAAU;EACZ;EACA;IACE,UAAU;EACZ;EACA;IACE,WAAW;EACb;AACF;;AAEA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;AACA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;AACA;EACE,mBAAmB;EACnB,4BAA4B;EAC5B,sCAAsC;EACtC,mCAAmC;EACnC,sBAAsB;EACtB,8BAA8B;AAChC;;AAEA,gBAAgB;AAChB,gBAAgB;AAChB,gBAAgB;;AAEhB;EACE,eAAe;EACf,QAAQ;EACR,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,gBAAgB;EAChB,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;;;GAGG;;AAEH;EACE,0BAA0B;EAC1B,iBAAiB;AACnB;;AAEA,oBAAoB;AACpB,oBAAoB;AACpB,oBAAoB;;AAEpB;EACE,YAAY;EACZ,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;EACpB,uBAAuB;EACvB,UAAU;AACZ;;AAEA,iBAAiB;AACjB,iBAAiB;AACjB,iBAAiB;AACjB;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB;;AAEA,kBAAkB;AAClB,kBAAkB;AAClB,kBAAkB;;AAElB;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,kBAAkB;EAClB,YAAY;EACZ,uBAAuB;AACzB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE;sBACoB;EACpB,WAAW;EACX,aAAa;EACb,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,uBAAuB;AACzB;;AAEA;EACE,aAAa;AACf","sourcesContent":["/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n  transition: .8s;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue);\n}\n\n/* #nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n} */\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 300px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home > h1:nth-child(3) {\n  margin-left: 50px;\n  font-size: 50px;\n}\n\n#home-2 {\n  text-align: center;\n  margin-top: 10vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n\n/*****************/\n/***** ABOUT *****/\n/*****************/\n\n#about-container > p{\n  font-size: 20px;\n  color: lightgray;\n}\n\nspan {\n  transition: 1s;\n}\n\n#about-container > p:hover span {\n  color: red;\n}\n\n#profile-img {\n  width: 180px;\n  float: left;\n  margin-right: 20px;\n  opacity: 50%;\n  transition-duration: 1s;\n}\n\n#profile-img:hover {\n  opacity: 80%;\n}\n\nsvg {\n  /* margin-top: 50px;\n  margin-left: 30px; */\n  width: 70vw;\n  height: 200px;\n  margin: 80px auto;\n}\n\nrect {\n  opacity: 60%;\n  transition-duration: 1s;\n}\n\nrect:hover {\n  opacity: 100%;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n.gray {\n  color: gray;\n}\n\n.gray-italics {\n  color: gray;\n  font-style: italic;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n  transition: .8s;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue);\n}\n\n/* #nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n} */\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 300px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home > h1:nth-child(3) {\n  margin-left: 50px;\n  font-size: 50px;\n}\n\n#home-2 {\n  text-align: center;\n  margin-top: 10vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n\n/*****************/\n/***** ABOUT *****/\n/*****************/\n\n#about-container > p{\n  font-size: 20px;\n  color: lightgray;\n}\n\nspan {\n  transition: 1s;\n}\n\n#about-container > p:hover span {\n  color: red;\n}\n\n#profile-img {\n  width: 180px;\n  float: left;\n  margin-right: 20px;\n  opacity: 50%;\n  transition-duration: 1s;\n}\n\n#profile-img:hover {\n  opacity: 80%;\n}\n\nsvg {\n  /* margin-top: 50px;\n  margin-left: 30px; */\n  width: 70vw;\n  height: 200px;\n  margin: 80px auto;\n}\n\nrect {\n  opacity: 60%;\n  transition-duration: 1s;\n}\n\nrect:hover {\n  opacity: 100%;\n}\n\n/*********************/\n/***** EDUCATION *****/\n/*********************/\n\n#education-container > h1 {\n  margin-bottom: 50px;\n}\n\n.school {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.school-year {\n  margin-right: 50px;\n}\n\n.school-details > h3 {\n  color: var(--deepskyblue);\n  margin-bottom: 0px;\n}\n\n.school-details > h4 {\n  margin: 0px;\n  margin-top: 5px;\n}\n\n.school-details > p {\n  margin: 8px;\n}\n\n/* SCHOOL DETAILS - HOVER EFFECT */\n.school-details {\n  transition: 1s;\n}\n\n#fullstack-details {\n  display: none;\n}\n\n#fullstack:hover #fullstack-details {\n  display: initial;\n}\n\n#fordham-details {\n  display: none;\n}\n\n#fordham:hover #fordham-details {\n  display: initial;\n}\n\n\n#liu-details {\n  display: none;\n}\n\n#liu:hover #liu-details {\n  display: initial;\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet.css"],"names":[],"mappings":"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","sourcesContent":["/******************/\n/***** GLOBAL *****/\n/******************/\n\n:root {\n  --tiffany: #0ABAB5;\n  --deepskyblue: #00CCFF;\n}\n\nbody {\n  background-color: black;\n  font-family: Comfortaa;\n  padding: 28px;\n  color: white;\n}\n\na {\n  text-decoration: none;\n  color: white;\n}\n\n.tiffany {\n  color: var(--tiffany);\n}\n\n.deepsky {\n  color: var(--deepskyblue);\n}\n\n.red {\n  color: red;\n}\n\n.gray {\n  color: gray;\n}\n\n.gray-italics {\n  color: gray;\n  font-style: italic;\n}\n\n/**********************/\n/***** BACKGROUND *****/\n/**********************/\n\n.background-img {\n  width: 100vw;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  z-index: -10;\n  /* opacity: 0%; */\n  /* -webkit-transition: opacity 1s ease-in-out;\n  -moz-transition: opacity 1s ease-in-out;\n  -o-transition: opacity 1s ease-in-out;\n  transition: opacity 1s ease-in-out; */\n}\n\n#nyc {\n  opacity: 25%;\n}\n\n#redny {\n  opacity: 0%;\n}\n\n#tokyo {\n  opacity: 0%;\n}\n\n@keyframes bgTransition {\n  0% {\n    opacity:0%;\n  }\n  50% {\n    opacity:0%;\n  }\n  100% {\n    opacity:25%;\n  }\n}\n\n#background-img-container img:nth-child(1) {\n  animation-delay: 0s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(2) {\n  animation-delay: 3s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n#background-img-container img:nth-child(3) {\n  animation-delay: 6s;\n  animation-name: bgTransition;\n  animation-timing-function: ease-in-out;\n  animation-iteration-count: infinite;\n  animation-duration: 6s;\n  animation-direction: alternate;\n}\n\n/***************/\n/***** NAV *****/\n/***************/\n\n#nav-bar {\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  width: 250px;\n  text-align: right;\n  padding-top: 28px;\n  padding-right: 68px;\n}\n\n#nav-bar > a {\n  display: block;\n  margin: 18px 0px;\n  font-size: 20px;\n  transition: .8s;\n}\n\n#nav-bar > a:hover {\n  color: var(--deepskyblue);\n}\n\n/* #nav-bar > a:not(:nth-child(1)):hover {\n  font-size: 25px;\n  margin: -2.5px 0px;\n} */\n\n#nav-logo {\n  font-size: 30px !important;\n  font-weight: bold;\n}\n\n/*******************/\n/***** CONTENT *****/\n/*******************/\n\n#content-container {\n  height: 80vh;\n  margin-right: 300px;\n  padding-top: 38px;\n  padding-left: 38px;\n  padding-bottom: 58px;\n  background: transparent;\n  fill: none;\n}\n\n/****************/\n/***** HOME *****/\n/****************/\n#home {\n  padding-top: 50px;\n  padding-left: 50px;\n}\n\n#home > h1:nth-child(2) {\n  margin-left: 20px;\n  font-size: 50px;\n}\n\n#home > h1:nth-child(3) {\n  margin-left: 50px;\n  font-size: 50px;\n}\n\n#home-2 {\n  text-align: center;\n  margin-top: 10vh;\n  color: gray;\n}\n\n#new-york{\n  font-size: 35px;\n}\n\n#japan {\n  font-size: 35px;\n}\n\n/*****************/\n/***** ABOUT *****/\n/*****************/\n\n#about-container > p{\n  font-size: 20px;\n  color: lightgray;\n}\n\nspan {\n  transition: 1s;\n}\n\n#about-container > p:hover span {\n  color: red;\n}\n\n#profile-img {\n  width: 180px;\n  float: left;\n  margin-right: 20px;\n  opacity: 50%;\n  transition-duration: 1s;\n}\n\n#profile-img:hover {\n  opacity: 80%;\n}\n\nsvg {\n  /* margin-top: 50px;\n  margin-left: 30px; */\n  width: 70vw;\n  height: 200px;\n  margin: 80px auto;\n}\n\nrect {\n  opacity: 60%;\n  transition-duration: 1s;\n}\n\nrect:hover {\n  opacity: 100%;\n}\n\n/*********************/\n/***** EDUCATION *****/\n/*********************/\n\n#education-container > h1 {\n  margin-bottom: 50px;\n}\n\n.school {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n\n.school-year {\n  margin-right: 50px;\n}\n\n.school-details > h3 {\n  color: var(--deepskyblue);\n  margin-bottom: 0px;\n}\n\n.school-details > h4 {\n  margin: 0px;\n  margin-top: 5px;\n}\n\n.school-details > p {\n  margin: 8px;\n}\n\n/* SCHOOL DETAILS - HOVER EFFECT */\n.school-details {\n  transition: 1s;\n}\n\n#fullstack-details {\n  display: none;\n}\n\n#fullstack:hover #fullstack-details {\n  display: initial;\n}\n\n#fordham-details {\n  display: none;\n}\n\n#fordham:hover #fordham-details {\n  display: initial;\n}\n\n\n#liu-details {\n  display: none;\n}\n\n#liu:hover #liu-details {\n  display: initial;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
