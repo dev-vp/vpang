@@ -11,7 +11,7 @@ class Nav extends React.Component{
         <Link to="/experience" id="nav-experience" >Experience</Link>
         <Link to="/education" id="nav-education" >Education</Link>
         <Link to="/projects" id="nav-projects" >Projects</Link>
-        <Link to="/interest" id="nav-interest" >Interest</Link>
+        {/* <Link to="/interest" id="nav-interest" >Interest</Link> */}
         <Link to="/contact" id="nav-contact" >Contact</Link>
       </div>
     )

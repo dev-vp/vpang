@@ -1,6 +1,12 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom'
-import {Home, About, Experience, Education} from './contents/index'
+import {
+  Home,
+  About,
+  Experience,
+  Education,
+  Contact
+} from './contents/index'
 
 class Content extends React.Component{
 
@@ -8,6 +14,7 @@ class Content extends React.Component{
     return (
       <div id="content-container">
         <Switch>
+          <Route path="/contact" component={Contact} />
           <Route path="/experience" component={Experience} />
           <Route path="/education" component={Education} />
           <Route path="/about" component={About} />

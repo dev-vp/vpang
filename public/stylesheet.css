@@ -483,3 +483,39 @@ li {
 #knowledge-container {
   animation: fadein 6s;
 }
+
+
+/*******************/
+/***** CONTACT *****/
+/*******************/
+
+#contact-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: 1s;
+  animation: fadein 2s;
+}
+
+#contact-container > a {
+  margin: 50px;
+  transition: 1s;
+}
+
+#contact-container > a > img {
+  opacity: 75%;
+  transition: 1s;
+}
+
+#contact-container > a > img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+#contact-container > a:hover {
+  cursor: pointer;
+}
+
