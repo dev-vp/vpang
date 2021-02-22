@@ -15,6 +15,8 @@ class TechStack extends React.Component{
             <li>Express</li>
             <li>Sequelize</li>
             <li>Git / GitHub</li>
+            <li>Photoshop</li>
+            <li>Lightroom</li>
           </ul>
         </div>
         <div id="knowledge-container">
@@ -27,6 +29,11 @@ class TechStack extends React.Component{
             <li>Jasemine</li>
             <li>Mocha</li>
             <li>Chai</li>
+            <li>RegEx</li>
+            <li>OAuth</li>
+            <li>Passport</li>
+            <li>Wordpress</li>
+            <li>SEO</li>
           </ul>
         </div>
       </div>

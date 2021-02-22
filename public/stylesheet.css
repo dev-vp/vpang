@@ -448,19 +448,38 @@ rect:hover {
 }
 
 #tech-experience {
+  margin-top: 50px;
   margin-right: 60px;
   font-family: 'Courier New', Courier, monospace;
+  border: 2px solid rgba(128, 0, 128, 0.515);
+  border-radius: 18px;
+  padding: 0px 20px;
 }
 
 #tech-experience > div > h2 {
-  color: purple;
-  margin-top: 50px;
+  color: rgba(128, 0, 128, 0.815);
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: 'Comfortaa';
+}
+
+#tech-experience:hover li {
+  color: white;
+}
+
+ul {
+  margin-top: 5px;
 }
 
 li {
   color: gray;
+  transition: 3s;
 }
 
-li:hover {
-  color: rgb(169, 2, 169);
+#proficient-container {
+  animation: fadein 3s;
+}
+
+#knowledge-container {
+  animation: fadein 6s;
 }
