@@ -40,6 +40,19 @@ a {
   font-style: italic;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\002B";
+  color: var(--tiffany);
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+}
+
 /*********************/
 /***** ANIMATION *****/
 /*********************/
@@ -424,4 +437,30 @@ rect:hover {
 
 #td-bank:hover #td-bank-details{
   opacity: 100%;
+}
+
+/**********************/
+/***** TECH STACK *****/
+/**********************/
+#experience-wrapper {
+  display: flex;
+  flex-flow: wrap;
+}
+
+#tech-experience {
+  margin-right: 60px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#tech-experience > div > h2 {
+  color: purple;
+  margin-top: 50px;
+}
+
+li {
+  color: gray;
+}
+
+li:hover {
+  color: rgb(169, 2, 169);
 }
