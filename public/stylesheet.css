@@ -62,6 +62,18 @@ ul li::before {
   to   { opacity: 1; }
 }
 
+@keyframes highlightRed {
+  0% {
+    color: lightgray;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: lightgray;
+  }
+}
+
 @keyframes bgTransition {
   0% {
     opacity:0%;
@@ -226,6 +238,8 @@ ul li::before {
 
 span {
   transition: 1.8s;
+  animation: highlightRed 8s;
+  animation-delay: 2s;
 }
 
 #about-container > p:hover span {
