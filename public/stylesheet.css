@@ -238,6 +238,9 @@ ul li::before {
 
 span {
   transition: 1.8s;
+}
+
+#about-container > p > span {
   animation: highlightRed 8s;
   animation-delay: 2s;
 }
@@ -345,37 +348,6 @@ rect:hover {
 #liu:hover #liu-details{
   opacity: 100%;
 }
-
-/* SCHOOL DETAILS - HOVER EFFECT */
-/* .school-details {
-  transition: 1s;
-  transition: ease-in-out;
-}
-
-#fullstack-details {
-  display: none;
-}
-
-#fullstack:hover #fullstack-details {
-  display: initial;
-}
-
-#fordham-details {
-  display: none;
-}
-
-#fordham:hover #fordham-details {
-  display: initial;
-}
-
-
-#liu-details {
-  display: none;
-}
-
-#liu:hover #liu-details {
-  display: initial;
-} */
 
 /**********************/
 /***** EXPERIENCE *****/
