@@ -880,7 +880,7 @@ var Experience = /*#__PURE__*/function (_React$Component) {
         className: "gray-italics"
       }, "Wall Street, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
         id: "deutsche-details"
-      }, "TBD"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+      }, "Responsible for risk mitigation efforts and exam management across six core programs; Transaction Monitoring, Fraud, Suspicious Activity Reporting, Special Investigations, Management Information, and User Acceptance Testing."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "boc",
         className: "company"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
@@ -893,7 +893,7 @@ var Experience = /*#__PURE__*/function (_React$Component) {
         className: "gray-italics"
       }, "New York, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
         id: "boc-details"
-      }, "TBD"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+      }, "Responsible for reviewing surveillance alerts, escalation of suspicious activities, and conducting risk-based analysis on correspondent activities.Worked in various capacities/roles including AML Investigator, SAR Drafter, and Correspondent Risk Analyst."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "chase",
         className: "company"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
@@ -906,7 +906,7 @@ var Experience = /*#__PURE__*/function (_React$Component) {
         className: "gray-italics"
       }, "Springfield, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
         id: "chase-details"
-      }, "TBD"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+      }, "Performed 1LoD AML duties including real-time customer screening/transaction monitoring (i.e. based on customer behavior, customer interaction, elderly abuse scenarios, fraudulent checks, identity theft, and suspicious transaction activity via account activity spot-check) and regulatory reporting (i.e. CTR, SAR escalation, etc.). In addition to the above, was also responsible for daily cash management, dual control, account referrals, business deposits, check cashing, and deposits/withdrawals."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "td-bank",
         className: "company"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
@@ -919,7 +919,7 @@ var Experience = /*#__PURE__*/function (_React$Component) {
         className: "gray-italics"
       }, "Mineola, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
         id: "td-bank-details"
-      }, "TBD"))))));
+      }, "Performed 1LoD AML duties including customer screening (i.e. based on customer behavior, customer interaction, elderly abuse scenarios, fraudulent checks, identity theft, and suspicious transaction activity via account activity spot-check) and regulatory reporting (i.e. CTR, SAR escalation, etc.). In addition to the above, was also responsible for daily cash management, dual control, account referrals, drive-up, night deposits, check cashing, deposits/withdrawals, and bond redemption."))))));
     }
   }]);
 
@@ -1119,9 +1119,9 @@ var TechStack = /*#__PURE__*/function (_React$Component) {
         id: "tech-experience"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "proficient-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Proficient In:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "JavaScript(ES6+)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "HTML / CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Redux"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Node"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Express"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Sequelize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Git / GitHub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Photoshop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Lightroom"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Proficient In:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "JavaScript(ES6+)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "HTML / CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Redux"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Node"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Express"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Sequelize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Git / GitHub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Photoshop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Lightroom"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Excel"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "knowledge-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Knowledge In:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Socket.io"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "D3.js"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Docker"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "MySQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Jasemine"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Mocha"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Chai"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "RegEx"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "OAuth"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Passport"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Wordpress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "SEO"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Knowledge In:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Socket.io"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "D3.js"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Docker"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "PostgresSQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "MySQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Jasemine"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Mocha"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Chai"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "RegEx"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "OAuth"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Passport"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Visual Basics"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Batch Scripting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "Wordpress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("li", null, "SEO"))));
     }
   }]);
 

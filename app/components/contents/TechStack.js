@@ -17,6 +17,7 @@ class TechStack extends React.Component{
             <li>Git / GitHub</li>
             <li>Photoshop</li>
             <li>Lightroom</li>
+            <li>Excel</li>
           </ul>
         </div>
         <div id="knowledge-container">
@@ -25,6 +26,7 @@ class TechStack extends React.Component{
             <li>Socket.io</li>
             <li>D3.js</li>
             <li>Docker</li>
+            <li>PostgresSQL</li>
             <li>MySQL</li>
             <li>Jasemine</li>
             <li>Mocha</li>
@@ -32,6 +34,8 @@ class TechStack extends React.Component{
             <li>RegEx</li>
             <li>OAuth</li>
             <li>Passport</li>
+            <li>Visual Basics</li>
+            <li>Batch Scripting</li>
             <li>Wordpress</li>
             <li>SEO</li>
           </ul>
