@@ -17,7 +17,8 @@ class Experience extends React.Component{
                 <h3>Deutsche Bank</h3>
                 <h4>Financial Crimes Operation - Risk Management</h4>
                 <p className="gray-italics">Wall Street, NY</p>
-                <p id="deutsche-details">Responsible for risk mitigation efforts and exam management across six core programs; Transaction Monitoring, Fraud, Suspicious Activity Reporting, Special Investigations, Management Information, and User Acceptance Testing.</p>
+                <p id="deutsche-details">Responsible for risk mitigation efforts and exam management across six core programs; Transaction Monitoring, Fraud, Suspicious Activity Reporting, Special Investigations, Management Information, and User Acceptance Testing.
+                </p>
               </div>
             </div>
             <div id="boc" className="company">
@@ -51,7 +52,8 @@ class Experience extends React.Component{
                 <h3>TD Bank, N.A.</h3>
                 <h4>Teller</h4>
                 <p className="gray-italics">Mineola, NY</p>
-                <p id="td-bank-details">Performed 1LoD AML duties including customer screening (i.e. based on customer behavior, customer interaction, elderly abuse scenarios, fraudulent checks, identity theft, and suspicious transaction activity via account activity spot-check) and regulatory reporting (i.e. CTR, SAR escalation, etc.). In addition to the above, was also responsible for daily cash management, dual control, account referrals, drive-up, night deposits, check cashing, deposits/withdrawals, and bond redemption.</p>
+                <p id="td-bank-details">Performed 1LoD AML duties including customer screening (i.e. based on customer behavior, customer interaction, elderly abuse scenarios, fraudulent checks, identity theft, and suspicious transaction activity via account activity spot-check) and regulatory reporting (i.e. CTR, SAR escalation, etc.). In addition to the above, was also responsible for daily cash management, dual control, account referrals, drive-up, night deposits, check cashing, deposits/withdrawals, and bond redemption.
+                </p>
               </div>
             </div>
           </div>
