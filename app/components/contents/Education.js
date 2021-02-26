@@ -13,7 +13,7 @@ class Education extends React.Component{
             <h3>Fullstack Academy - Software Engineering</h3>
             <h4>Certificate of Completion (533+ hours)</h4>
             <p className="gray-italics">New York, NY</p>
-            <p id="fullstack-details">A 17-week (full-time) course, over a 5-month period with immersive coursework focused on JavaScript as the primary language of choice. The program itself covered data structures, algorithms, closures, prototypal inheritance, recursion, Object Oriented Programing, Test-Driven Development, team projects, and pair/peer programming.</p>
+            <p id="fullstack-details">A 17-week (full-time) course, over a 5-month period with immersive coursework focused on JavaScript as the primary language of choice. The program itself covered data structures, algorithms, closures, prototypal inheritance, recursion, async/await, Object Oriented Programing (OOP), Test-Driven Development (TDD), team projects, and pair/peer programming.</p>
           </div>
         </div>
         <div id="fordham" className="school">
