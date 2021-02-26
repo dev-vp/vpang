@@ -10,7 +10,7 @@
     "start-dev": "webpack -w & nodemon server/index.js",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d public/bundle.js"
   },
   "author": "",
   "license": "ISC",
