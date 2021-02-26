@@ -1,5 +1,6 @@
 {
   "name": "webportfolio",
+  "homepage": "http://dev-vp.github.io/vpang",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "start-dev": "webpack -w & nodemon server/index.js",
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +28,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
     "nodemon": "^2.0.7",
     "style-loader": "^2.0.0",
     "webpack": "^5.23.0",
