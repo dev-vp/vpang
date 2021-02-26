@@ -513,12 +513,23 @@ li {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
+  overflow: scroll;
 }
 
 .project {
   width: 180px;
   height: 180px;
   min-width: 180px;
-  margin: 50px;
+  padding: 8px;
+  margin: 30px;
+  background-color: rgba(211, 211, 211, 0.566);
+}
+
+.project > h2 {
+  text-align: center;
+}
+
+.project > p {
+  font-size: 12px;
 }
