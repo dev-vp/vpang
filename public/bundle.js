@@ -771,7 +771,7 @@ var Education = /*#__PURE__*/function (_React$Component) {
         className: "gray-italics"
       }, "New York, NY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", {
         id: "fullstack-details"
-      }, "A 17-week (full-time) course, over a 5-month period with immersive coursework focused on JavaScript as the primary language of choice. The program itself covered data structures, algorithms, closures, prototypal inheritance, recursion, Object Oriented Programing, Test-Driven Development, team projects, and pair/peer programming."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
+      }, "A 17-week (full-time) course, over a 5-month period with immersive coursework focused on JavaScript as the primary language of choice. The program itself covered data structures, algorithms, closures, prototypal inheritance, recursion, async/await, Object Oriented Programing (OOP), Test-Driven Development (TDD), team projects, and pair/peer programming."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
         id: "fordham",
         className: "school"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("div", {
