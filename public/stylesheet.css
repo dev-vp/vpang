@@ -122,6 +122,18 @@ ul li::before {
   animation-iteration-count: infinite;
   animation-duration: 6s;
   animation-direction: alternate;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-name: bgTransition;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-direction: alternate;
+  -moz-animation-delay: 0s;
+  -moz-animation-name: bgTransition;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 6s;
+  -moz-animation-direction: alternate;
 }
 #background-img-container img:nth-child(2) {
   animation-delay: 3s;
@@ -130,6 +142,18 @@ ul li::before {
   animation-iteration-count: infinite;
   animation-duration: 6s;
   animation-direction: alternate;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-name: bgTransition;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-direction: alternate;
+  -moz-animation-delay: 3s;
+  -moz-animation-name: bgTransition;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 6s;
+  -moz-animation-direction: alternate;
 }
 #background-img-container img:nth-child(3) {
   animation-delay: 6s;
@@ -138,6 +162,18 @@ ul li::before {
   animation-iteration-count: infinite;
   animation-duration: 6s;
   animation-direction: alternate;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-name: bgTransition;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-direction: alternate;
+  -moz-animation-delay: 6s;
+  -moz-animation-name: bgTransition;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 6s;
+  -moz-animation-direction: alternate;
 }
 
 /***************/
@@ -521,10 +557,9 @@ li {
   width: 180px;
   height: 180px;
   min-width: 180px;
-  padding: 8px;
+  /* padding: 8px; */
   margin: 30px;
-  background-color: rgba(211, 211, 211, 0.566);
-  overflow: hidden;
+  /* background-color: rgba(211, 211, 211, 0.566); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -534,31 +569,26 @@ li {
   text-align: center;
 }
 
-.project > p {
-  font-size: 12px;
-  display: none;
+.project > button {
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  background-color: #86868686;
+  animation: fadein 2s;
 }
 
-#cesv11:hover ~ #cesv11 > h2 {
-  display: none;
+.project > button:hover {
+  background-color: #868686;
 }
 
-#cesv11:hover ~ #cesv11 > p {
-  display: initial;
+.dialog-link {
+  color: rgba(137, 43, 226, 0.527);
 }
 
-#qap:hover ~ #qap > h2 {
-  display: none;
+.dialog-link:hover {
+  color: blueviolet;
 }
 
-#qap:hover ~ #qap > p {
-  display: initial;
-}
-
-#notables:hover ~ #notables > h2 {
-  display: none;
-}
-
-#notables:hover ~ #notables > p {
-  display: initial;
+body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div {
+  background-color: #c9c9c9;
 }
