@@ -31,13 +31,13 @@ class Notables extends React.Component{
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
           >
-            <DialogTitle id="notables-dialog-title">Notables</DialogTitle>
+            <DialogTitle id="notables-dialog-title" className="dialog-title">Notables</DialogTitle>
             <DialogContent>
-              <DialogContentText id="notables-description">
+              <DialogContentText id="notables-description" className="dialog-content">
               Notables is a plain text editor that was built primarily with vanilla Javascript, HTML, and CSS. This application can not only convert your documents into Markdown syntax, but also run arbitrary code through its integrated sandbox built with Docker, Express, and VM2 for added security.
               </DialogContentText>
-              <DialogContent><a class="dialog-link" href="https://github.com/2011-libra/notables" target="_blank">GitHub</a></DialogContent>
-              <DialogContent><a class="dialog-link" href="#">AWS (EC2) - Currently Unavailable</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="https://github.com/2011-libra/notables" target="_blank">GitHub</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="#">Deployed on AWS (EC2) - Currently Unavailable</a></DialogContent>
             </DialogContent>
             <DialogActions>
               <Button onClick={this.handleClose} color="primary">

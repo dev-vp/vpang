@@ -31,13 +31,13 @@ class QAPi extends React.Component{
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
           >
-            <DialogTitle id="qap-dialog-title">Q+AP Interactive</DialogTitle>
+            <DialogTitle id="qap-dialog-title" className="dialog-title" >Q+AP Interactive</DialogTitle>
             <DialogContent>
-              <DialogContentText id="qap-description">
+              <DialogContentText id="qap-description" className="dialog-content">
               Q+AP Interactive is a real-time polling application that was built as part of a five-day Stackathon. This application allows users to create survey poll(s) where any user with a given participant key may vote in real-time; making this application perfect for live-presentations whether remote / in-person. Survey results persist, and may be accessed at any time. As part of this build, the application leverages Socket.io, D3.js, React, Redux, Node, Sequelize, Express, PSQL, and Heroku for deployment.
               </DialogContentText>
-              <DialogContent><a class="dialog-link" href="https://github.com/dev-vp/qaap" target="_blank">GitHub</a></DialogContent>
-              <DialogContent><a class="dialog-link" href="https://qap-interactive.herokuapp.com/" target="_blank">Deployed App (Heroku)</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="https://github.com/dev-vp/qaap" target="_blank">GitHub</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="https://qap-interactive.herokuapp.com/" target="_blank">Deployed on Heroku</a></DialogContent>
             </DialogContent>
             <DialogActions>
               <Button onClick={this.handleClose} color="primary">

@@ -31,13 +31,13 @@ class CESV11 extends React.Component{
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"
           >
-            <DialogTitle id="cesv-dialog-title">CESV-11</DialogTitle>
+            <DialogTitle id="cesv-dialog-title" className="dialog-title">CESV-11</DialogTitle>
             <DialogContent>
-              <DialogContentText id="cesv-description">
+              <DialogContentText id="cesv-description" className="dialog-content">
                 CESV-11 is a mock e-commerce website that offers the latest selection of smartphones on the market. Developed with CRUD in mind, this single page application was created with React, Redux, Express, PSQL, Sequelize, Node, Passport, and Heroku for deployment.
               </DialogContentText>
-              <DialogContent><a class="dialog-link" href="https://github.com/2011-FSA-Team-Iota/GraceShopper" target="_blank">GitHub</a></DialogContent>
-              <DialogContent><a class="dialog-link" href="https://fsa-graceshopper.herokuapp.com" target="_blank">Deployed App (Heroku)</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="https://github.com/2011-FSA-Team-Iota/GraceShopper" target="_blank">GitHub</a></DialogContent>
+              <DialogContent><a className="dialog-link" href="https://fsa-graceshopper.herokuapp.com" target="_blank">Deployed on Heroku</a></DialogContent>
             </DialogContent>
             <DialogActions>
               <Button onClick={this.handleClose} color="primary">
