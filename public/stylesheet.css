@@ -524,6 +524,10 @@ li {
   padding: 8px;
   margin: 30px;
   background-color: rgba(211, 211, 211, 0.566);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project > h2 {
@@ -532,4 +536,29 @@ li {
 
 .project > p {
   font-size: 12px;
+  display: none;
+}
+
+#cesv11:hover ~ #cesv11 > h2 {
+  display: none;
+}
+
+#cesv11:hover ~ #cesv11 > p {
+  display: initial;
+}
+
+#qap:hover ~ #qap > h2 {
+  display: none;
+}
+
+#qap:hover ~ #qap > p {
+  display: initial;
+}
+
+#notables:hover ~ #notables > h2 {
+  display: none;
+}
+
+#notables:hover ~ #notables > p {
+  display: initial;
 }

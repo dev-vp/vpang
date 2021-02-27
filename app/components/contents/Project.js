@@ -1,29 +1,15 @@
 import React from 'react';
+import CESV11 from './projects/CESV11';
+import QAPi from './projects/QAPi';
+import Notables from './projects/Notables';
 
 class Project extends React.Component{
   render(){
     return (
       <div id="projects-container">
-        <div className="project">
-          <h2>Project Name</h2>
-          <p>Sunt dolore in eu aliquip elit. Officia proident pariatur veniam minim Lorem aliquip voluptate. Voluptate occaecat voluptate sit sit non. Sit laborum velit amet proident laborum nulla.</p>
-        </div>
-        <div className="project">
-          <h2>Project Name</h2>
-          <p>Sunt dolore in eu aliquip elit. Officia proident pariatur veniam minim Lorem aliquip voluptate. Voluptate occaecat voluptate sit sit non. Sit laborum velit amet proident laborum nulla.</p>
-        </div>
-        <div className="project">
-          <h2>Project Name</h2>
-          <p>Sunt dolore in eu aliquip elit. Officia proident pariatur veniam minim Lorem aliquip voluptate. Voluptate occaecat voluptate sit sit non. Sit laborum velit amet proident laborum nulla.</p>
-        </div>
-        <div className="project">
-          <h2>Project Name</h2>
-          <p>Sunt dolore in eu aliquip elit. Officia proident pariatur veniam minim Lorem aliquip voluptate. Voluptate occaecat voluptate sit sit non. Sit laborum velit amet proident laborum nulla.</p>
-        </div>
-        <div className="project">
-          <h2>Project Name</h2>
-          <p>Sunt dolore in eu aliquip elit. Officia proident pariatur veniam minim Lorem aliquip voluptate. Voluptate occaecat voluptate sit sit non. Sit laborum velit amet proident laborum nulla.</p>
-        </div>
+        <CESV11 />
+        <QAPi />
+        <Notables />
       </div>
     )
   }
