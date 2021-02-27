@@ -23,7 +23,7 @@ class CESV11 extends React.Component{
     return (
         <div id="cesv11" className="project">
           <Button id="cesv-button" onClick={this.handleClick}>
-            CESV-11
+            <img src="./CESV11.png"/>
           </Button>
           <Dialog
             open={this.state.open}

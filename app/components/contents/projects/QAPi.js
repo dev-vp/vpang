@@ -23,7 +23,7 @@ class QAPi extends React.Component{
     return (
         <div id="qap" className="project">
           <Button id="qap-button" onClick={this.handleClick}>
-            Q+AP Interactive
+            <img src="./QAPi.png"/>
           </Button>
           <Dialog
             open={this.state.open}

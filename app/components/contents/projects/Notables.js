@@ -23,7 +23,7 @@ class Notables extends React.Component{
     return (
         <div id="notables" className="project">
           <Button id="notables-button" onClick={this.handleClick}>
-            Notables
+            <img src="./Notables.png"/>
           </Button>
           <Dialog
             open={this.state.open}
