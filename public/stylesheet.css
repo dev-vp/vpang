@@ -605,7 +605,8 @@ body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div 
 #nav-bar {
   text-align: center;
   position: fixed;
-  top: 30px;
+  padding-top: 30px;
+  top: 0px;
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.910);
