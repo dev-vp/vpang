@@ -4,7 +4,7 @@ class Home extends React.Component{
   render(){
     return (
       <div id='home'>
-        <h1>I am a</h1>
+        {/* <h1>I am a</h1> */}
         <h1 className="tiffany" >Software Engineer /</h1>
         <h1 className="tiffany" >Web Developer.</h1>
         <div id='home-2'>

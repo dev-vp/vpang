@@ -211,10 +211,10 @@ ul li::before {
 /*******************/
 
 #content-container {
-  height: 68vh;
-  padding-top: 88px;
-  padding-left: 88px;
-  padding-right: 88px;
+  height: 80vh;
+  margin-right: 300px;
+  padding-top: 38px;
+  padding-left: 38px;
   padding-bottom: 58px;
   background: transparent;
   fill: none;
@@ -223,11 +223,23 @@ ul li::before {
 /****************/
 /***** HOME *****/
 /****************/
+#home {
+  padding-top: 50px;
+  padding-left: 50px;
+}
 
 #home > h1 {
   animation: fadein 5s;
-  text-align: center;
-  font-size: 5.8vw;
+}
+
+#home > h1:nth-child(2) {
+  margin-left: 20px;
+  font-size: 50px;
+}
+
+#home > h1:nth-child(3) {
+  margin-left: 50px;
+  font-size: 50px;
 }
 
 #home-2 {
@@ -237,16 +249,12 @@ ul li::before {
   animation: fadein 8s;
 }
 
-#home-2 > h2:not(span) {
-  font-size: 2.3vw;
-}
-
 #new-york{
-  font-size: 2.7vw;
+  font-size: 35px;
 }
 
 #japan {
-  font-size: 2.7vw;
+  font-size: 35px;
 }
 
 /*****************/
@@ -597,67 +605,4 @@ button > span > img:hover {
 
 body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div {
   background-color: #c9c9c9;
-}
-
-/****************************************/
-/***** NAV BAR - HORIZONTAL VERSION *****/
-/****************************************/
-#nav-bar {
-  text-align: center;
-  position: fixed;
-  top: 30px;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.910);
-  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.910);
-  z-index: 8;
-}
-
-#nav-bar > a{
-  margin: 0px 2%;
-  color: gray;
-  transition: 1s;
-}
-
-#nav-bar > a:nth-child(1) {
-  font-size: 30px;
-  display: block;
-  margin-bottom: 25px;
-  color: white;
-}
-
-#nav-bar > a:hover {
-  color: var(--deepskyblue);
-}
-
-/**********************************/
-/***** NAV - MINIFIED VERSION *****/
-/**********************************/
-
-#menu {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-#menu-button {
-  font-size: 30px;
-  font-family: Comfortaa;
-  font-weight: bold;
-  color: white;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-#menu-button:hover {
-  color: var(--deepskyblue);
-  cursor: pointer;
-}
-
-#menu-drawer {
-  visibility: hidden;
 }
