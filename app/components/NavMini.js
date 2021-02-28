@@ -33,8 +33,8 @@ class NavMini extends React.Component{
           <Link to="/experience" id="mini-nav-experience" onClick={this.handleLinkClick}>Experience</Link>
           <Link to="/education" id="mini-nav-education" onClick={this.handleLinkClick}>Education</Link>
           <Link to="/projects" id="mini-nav-projects" onClick={this.handleLinkClick}>Projects</Link>
-          {/* <Link to="/interest" id="nav-interest" onClick={this.handleLinkClick}>Interest</Link> */}
-          <Link to="/contact" id="nav-contact" onClick={this.handleLinkClick}>Contact</Link>
+          {/* <Link to="/interest" id="mini-nav-interest" onClick={this.handleLinkClick}>Interest</Link> */}
+          <Link to="/contact" id="mini-nav-contact" onClick={this.handleLinkClick}>Contact</Link>
         </div>
       </div>
     )

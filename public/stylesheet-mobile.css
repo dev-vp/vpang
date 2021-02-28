@@ -125,4 +125,12 @@
   .company-details > p:last-child {
     opacity: 100%;
   }
+
+  /********************/
+  /***** PROJECTS *****/
+  /********************/
+  #projects-container {
+    padding-bottom: 300px;
+    overflow: visible;
+  }
 }
