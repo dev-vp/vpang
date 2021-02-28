@@ -5,6 +5,7 @@ class NavMini extends React.Component{
   constructor(){
     super()
     this.handleOnClick = this.handleOnClick.bind(this);
+    this.handleLinkClick = this.handleLinkClick.bind(this);
   }
 
   handleOnClick(){
@@ -13,18 +14,27 @@ class NavMini extends React.Component{
     document.getElementById('menu-drawer').style.left = '-128px'
   }
 
+  handleLinkClick(evt){
+    let nodeList = Array.from(document.getElementById('menu-drawer').children);
+    nodeList.map((node) => {
+        node.style.color = 'white';
+    });
+    document.getElementById(`${evt.target.id}`).style.color = '#00CCFF';
+    document.getElementById('menu-drawer').style.left = '-128px';
+  }
+
   render(){
     return (
       <div id="nav-mini">
-        <button id="menu-button" type="button" onClick={this.handleOnClick} >Menu</button>
+        <button id="menu-button" type="button" onClick={this.handleOnClick} ><img src="./menu-button-mobile.png" /></button>
         <div id="menu-drawer">
-          <Link to="/" id="nav-logo" >Vincent Pang</Link>
-          <Link to="/about" id="nav-about" >About Me</Link>
-          <Link to="/experience" id="nav-experience" >Experience</Link>
-          <Link to="/education" id="nav-education" >Education</Link>
-          <Link to="/projects" id="nav-projects" >Projects</Link>
-          {/* <Link to="/interest" id="nav-interest" >Interest</Link> */}
-          <Link to="/contact" id="nav-contact" >Contact</Link>
+          <Link to="/" id="mini-nav-home" onClick={this.handleLinkClick}>Home</Link>
+          <Link to="/about" id="mini-nav-about" onClick={this.handleLinkClick}>About Me</Link>
+          <Link to="/experience" id="mini-nav-experience" onClick={this.handleLinkClick}>Experience</Link>
+          <Link to="/education" id="mini-nav-education" onClick={this.handleLinkClick}>Education</Link>
+          <Link to="/projects" id="mini-nav-projects" onClick={this.handleLinkClick}>Projects</Link>
+          {/* <Link to="/interest" id="nav-interest" onClick={this.handleLinkClick}>Interest</Link> */}
+          <Link to="/contact" id="nav-contact" onClick={this.handleLinkClick}>Contact</Link>
         </div>
       </div>
     )

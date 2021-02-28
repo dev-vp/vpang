@@ -10,7 +10,7 @@
   /***** CONTENT *****/
   /*******************/
   #content-container {
-    padding: 0px;
+    padding: 8px;
   }
 
   /********************/
@@ -22,18 +22,32 @@
 
   #nav-mini {
     display: initial;
+    margin: 8px;
+
+  }
+
+  #nav-mini > button {
+    background-color: transparent;
+    width: 50px;
+    border: none;
+    outline: none;
+  }
+
+  #nav-mini > button > img {
+    width: 100%
   }
 
   #menu-drawer {
     position: fixed;
     left: -128px;
     transition: 1s;
+    z-index: 3;
     background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8); */
   }
 
   #menu-drawer > a {
     display: block;
-    margin: 8px 18px;
+    margin: 18px 18px;
   }
 }
