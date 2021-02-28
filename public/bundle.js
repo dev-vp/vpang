@@ -8857,13 +8857,13 @@ var About = /*#__PURE__*/function (_React$Component) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("p", null, "Prior to becoming a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", null, "Software Engineer"), ", I worked as a Risk and Compliance Officer, and spent a large portion of my time preemptively mitigating risk, coordinating regulatory examinations, and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", null, "analyzing data"), " for any applicable risk landscape related to the bank\u2019s operation. However, the crux of my career change primarily stemmed from my growing interest and natural aptitude for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", null, "technology"), ". Since becoming a full-time engineer, it much clearer now that I happen to find much of my satisfaction from ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", null, "solving challenging problems"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", null, "designing software.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("svg", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("rect", {
         x: "0",
         y: "0",
-        width: "70%",
+        width: "98%",
         height: "38",
         fill: "#0ABAB5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("animate", {
         attributeName: "width",
         from: "0",
-        to: "70%",
+        to: "98%",
         dur: "1s",
         fill: "freeze"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("text", {
@@ -8875,13 +8875,13 @@ var About = /*#__PURE__*/function (_React$Component) {
       }, "English")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("rect", {
         x: "0",
         y: "60",
-        width: "45%",
+        width: "75%",
         height: "38",
         fill: "#0ABAB5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("animate", {
         attributeName: "width",
         from: "0",
-        to: "45%",
+        to: "75%",
         dur: "1.5s",
         fill: "freeze"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("text", {
@@ -8893,13 +8893,13 @@ var About = /*#__PURE__*/function (_React$Component) {
       }, "Chinese (\u4E2D\u6587)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("rect", {
         x: "0",
         y: "120",
-        width: "30%",
+        width: "50%",
         height: "38",
         fill: "#0ABAB5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("animate", {
         attributeName: "width",
         from: "0",
-        to: "30%",
+        to: "50%",
         dur: "2s",
         fill: "freeze"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("text", {
@@ -10009,7 +10009,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@media only screen and (max-width:768px){\n  /******************/\n  /***** GLOBAL *****/\n  /******************/\n  body {\n    padding: 0px;\n  }\n\n  /*******************/\n  /***** CONTENT *****/\n  /*******************/\n  #content-container {\n    padding: 8px;\n  }\n\n  /********************/\n  /***** NAV-MINI *****/\n  /********************/\n  #nav-bar {\n    display: none;\n  }\n\n  #nav-mini {\n    display: initial;\n    margin: 8px;\n\n  }\n\n  #nav-mini > button {\n    background-color: transparent;\n    width: 50px;\n    border: none;\n    outline: none;\n  }\n\n  #nav-mini > button > img {\n    width: 100%\n  }\n\n  #menu-drawer {\n    position: fixed;\n    left: -128px;\n    transition: 1s;\n    z-index: 3;\n    background-color: rgba(0, 0, 0, 0.8);\n    /* box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8); */\n  }\n\n  #menu-drawer > a {\n    display: block;\n    margin: 18px 18px;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #home {\n    margin-top: 80px;\n  }\n\n  #home > h1 {\n    font-size: 7vw;\n  }\n\n  #home-2 > h2:not(span) {\n    font-size: 4vw;\n  }\n\n  #home-2 > h2 > span {\n    font-size: 5vw;\n  }\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet-mobile.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,mBAAmB;EACnB,mBAAmB;EACnB;IACE,YAAY;EACd;;EAEA,oBAAoB;EACpB,oBAAoB;EACpB,oBAAoB;EACpB;IACE,YAAY;EACd;;EAEA,qBAAqB;EACrB,qBAAqB;EACrB,qBAAqB;EACrB;IACE,aAAa;EACf;;EAEA;IACE,gBAAgB;IAChB,WAAW;;EAEb;;EAEA;IACE,6BAA6B;IAC7B,WAAW;IACX,YAAY;IACZ,aAAa;EACf;;EAEA;IACE;EACF;;EAEA;IACE,eAAe;IACf,YAAY;IACZ,cAAc;IACd,UAAU;IACV,oCAAoC;IACpC,gDAAgD;EAClD;;EAEA;IACE,cAAc;IACd,iBAAiB;EACnB;;EAEA,iBAAiB;EACjB,iBAAiB;EACjB,iBAAiB;EACjB;IACE,gBAAgB;EAClB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,cAAc;EAChB;AACF","sourcesContent":["@media only screen and (max-width:768px){\n  /******************/\n  /***** GLOBAL *****/\n  /******************/\n  body {\n    padding: 0px;\n  }\n\n  /*******************/\n  /***** CONTENT *****/\n  /*******************/\n  #content-container {\n    padding: 8px;\n  }\n\n  /********************/\n  /***** NAV-MINI *****/\n  /********************/\n  #nav-bar {\n    display: none;\n  }\n\n  #nav-mini {\n    display: initial;\n    margin: 8px;\n\n  }\n\n  #nav-mini > button {\n    background-color: transparent;\n    width: 50px;\n    border: none;\n    outline: none;\n  }\n\n  #nav-mini > button > img {\n    width: 100%\n  }\n\n  #menu-drawer {\n    position: fixed;\n    left: -128px;\n    transition: 1s;\n    z-index: 3;\n    background-color: rgba(0, 0, 0, 0.8);\n    /* box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8); */\n  }\n\n  #menu-drawer > a {\n    display: block;\n    margin: 18px 18px;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #home {\n    margin-top: 80px;\n  }\n\n  #home > h1 {\n    font-size: 7vw;\n  }\n\n  #home-2 > h2:not(span) {\n    font-size: 4vw;\n  }\n\n  #home-2 > h2 > span {\n    font-size: 5vw;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@media only screen and (max-width:768px){\n  /******************/\n  /***** GLOBAL *****/\n  /******************/\n  body {\n    padding: 0px;\n  }\n\n  /*******************/\n  /***** CONTENT *****/\n  /*******************/\n  #content-container {\n    padding: 8px;\n  }\n\n  /********************/\n  /***** NAV-MINI *****/\n  /********************/\n  #nav-bar {\n    display: none;\n  }\n\n  #nav-mini {\n    display: initial;\n    margin: 8px;\n\n  }\n\n  #nav-mini > button {\n    background-color: transparent;\n    width: 50px;\n    border: none;\n    outline: none;\n  }\n\n  #nav-mini > button > img {\n    width: 100%\n  }\n\n  #menu-drawer {\n    position: fixed;\n    left: -128px;\n    transition: 1s;\n    z-index: 3;\n    background-color: rgba(0, 0, 0, 0.8);\n    /* box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8); */\n  }\n\n  #menu-drawer > a {\n    display: block;\n    margin: 18px 18px;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #home {\n    margin-top: 80px;\n  }\n\n  #home > h1 {\n    font-size: 7vw;\n  }\n\n  #home-2 > h2:not(span) {\n    font-size: 4vw;\n  }\n\n  #home-2 > h2 > span {\n    font-size: 5vw;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #about-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  #about-container > h1 {\n    text-align: center;\n  }\n\n  #profile-img {\n    width: 150px;\n    margin: 8px 0px;\n  }\n\n  #about-container > p {\n    font-size: 15px;\n    margin-top: 20px;\n    padding: 0px 20px;\n  }\n\n  #about-container > svg {\n    margin-top: 30px;\n  }\n}\n", "",{"version":3,"sources":["webpack://./public/stylesheet-mobile.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,mBAAmB;EACnB,mBAAmB;EACnB;IACE,YAAY;EACd;;EAEA,oBAAoB;EACpB,oBAAoB;EACpB,oBAAoB;EACpB;IACE,YAAY;EACd;;EAEA,qBAAqB;EACrB,qBAAqB;EACrB,qBAAqB;EACrB;IACE,aAAa;EACf;;EAEA;IACE,gBAAgB;IAChB,WAAW;;EAEb;;EAEA;IACE,6BAA6B;IAC7B,WAAW;IACX,YAAY;IACZ,aAAa;EACf;;EAEA;IACE;EACF;;EAEA;IACE,eAAe;IACf,YAAY;IACZ,cAAc;IACd,UAAU;IACV,oCAAoC;IACpC,gDAAgD;EAClD;;EAEA;IACE,cAAc;IACd,iBAAiB;EACnB;;EAEA,iBAAiB;EACjB,iBAAiB;EACjB,iBAAiB;EACjB;IACE,gBAAgB;EAClB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,cAAc;EAChB;;EAEA,iBAAiB;EACjB,iBAAiB;EACjB,iBAAiB;EACjB;IACE,aAAa;IACb,sBAAsB;IACtB,mBAAmB;EACrB;;EAEA;IACE,kBAAkB;EACpB;;EAEA;IACE,YAAY;IACZ,eAAe;EACjB;;EAEA;IACE,eAAe;IACf,gBAAgB;IAChB,iBAAiB;EACnB;;EAEA;IACE,gBAAgB;EAClB;AACF","sourcesContent":["@media only screen and (max-width:768px){\n  /******************/\n  /***** GLOBAL *****/\n  /******************/\n  body {\n    padding: 0px;\n  }\n\n  /*******************/\n  /***** CONTENT *****/\n  /*******************/\n  #content-container {\n    padding: 8px;\n  }\n\n  /********************/\n  /***** NAV-MINI *****/\n  /********************/\n  #nav-bar {\n    display: none;\n  }\n\n  #nav-mini {\n    display: initial;\n    margin: 8px;\n\n  }\n\n  #nav-mini > button {\n    background-color: transparent;\n    width: 50px;\n    border: none;\n    outline: none;\n  }\n\n  #nav-mini > button > img {\n    width: 100%\n  }\n\n  #menu-drawer {\n    position: fixed;\n    left: -128px;\n    transition: 1s;\n    z-index: 3;\n    background-color: rgba(0, 0, 0, 0.8);\n    /* box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.8); */\n  }\n\n  #menu-drawer > a {\n    display: block;\n    margin: 18px 18px;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #home {\n    margin-top: 80px;\n  }\n\n  #home > h1 {\n    font-size: 7vw;\n  }\n\n  #home-2 > h2:not(span) {\n    font-size: 4vw;\n  }\n\n  #home-2 > h2 > span {\n    font-size: 5vw;\n  }\n\n  /****************/\n  /***** HOME *****/\n  /****************/\n  #about-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  #about-container > h1 {\n    text-align: center;\n  }\n\n  #profile-img {\n    width: 150px;\n    margin: 8px 0px;\n  }\n\n  #about-container > p {\n    font-size: 15px;\n    margin-top: 20px;\n    padding: 0px 20px;\n  }\n\n  #about-container > svg {\n    margin-top: 30px;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

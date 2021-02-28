@@ -11,20 +11,20 @@ class About extends React.Component{
       </p>
       <svg>
         <g>
-          <rect x="0" y="0" width="70%" height="38" fill="#0ABAB5">
-            <animate attributeName="width" from="0" to="70%" dur="1s" fill="freeze" />
+          <rect x="0" y="0" width="98%" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="98%" dur="1s" fill="freeze" />
           </rect>
           <text x="8" y="28" fontFamily="Comfortaa" fontSize=".9em" fill="black">English</text>
         </g>
         <g>
-          <rect x="0" y="60" width="45%" height="38" fill="#0ABAB5">
-            <animate attributeName="width" from="0" to="45%" dur="1.5s" fill="freeze" />
+          <rect x="0" y="60" width="75%" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="75%" dur="1.5s" fill="freeze" />
           </rect>
           <text x="8" y={`${28+38+20}`} fontFamily="Comfortaa" fontSize=".9em" fill="black">Chinese (中文)</text>
         </g>
         <g>
-          <rect x="0" y="120" width="30%" height="38" fill="#0ABAB5">
-            <animate attributeName="width" from="0" to="30%" dur="2s" fill="freeze" />
+          <rect x="0" y="120" width="50%" height="38" fill="#0ABAB5">
+            <animate attributeName="width" from="0" to="50%" dur="2s" fill="freeze" />
           </rect>
           <text x="8" y={`${28+(38+20)*2}`} fontFamily="Comfortaa" fontSize=".9em" fill="black">Japanese (日本語)</text>
         </g>
