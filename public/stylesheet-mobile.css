@@ -50,4 +50,23 @@
     display: block;
     margin: 18px 18px;
   }
+
+  /****************/
+  /***** HOME *****/
+  /****************/
+  #home {
+    margin-top: 80px;
+  }
+
+  #home > h1 {
+    font-size: 7vw;
+  }
+
+  #home-2 > h2:not(span) {
+    font-size: 4vw;
+  }
+
+  #home-2 > h2 > span {
+    font-size: 5vw;
+  }
 }
