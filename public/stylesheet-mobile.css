@@ -1,9 +1,15 @@
+:root {
+  --tiffany: #0ABAB5;
+  --deepskyblue: #00CCFF;
+}
+
 @media only screen and (max-width:768px){
   /******************/
   /***** GLOBAL *****/
   /******************/
   body {
     padding: 0px;
+    padding-top: 60px;
   }
 
   /**********************/
@@ -30,6 +36,9 @@
   #nav-mini {
     display: initial;
     margin: 8px;
+    position: fixed;
+    top: 8px;
+    left: 8px;
 
   }
 
@@ -77,9 +86,9 @@
     font-size: 5vw;
   }
 
-  /****************/
-  /***** HOME *****/
-  /****************/
+  /*****************/
+  /***** ABOUT *****/
+  /*****************/
   #about-container {
     display: flex;
     flex-direction: column;
@@ -139,5 +148,12 @@
   #projects-container {
     padding-bottom: 300px;
     overflow: visible;
+  }
+
+  /*********************/
+  /***** EDUCATION *****/
+  /*********************/
+  #education-container > h1{
+    text-align: center;
   }
 }
