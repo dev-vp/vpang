@@ -97,4 +97,32 @@
   #about-container > svg {
     margin-top: 30px;
   }
+
+  /**********************/
+  /***** EXPERIENCE *****/
+  /**********************/
+
+  #experience-container > h1 {
+    text-align: center;
+  }
+
+  #tech-experience {
+    margin: 18px 8px;
+  }
+
+  #tech-experience > div > ul > li {
+    color: lightgray;
+  }
+
+  #work-experience {
+    margin-left: 39px
+  }
+
+  .company-details {
+    width: 95%;
+  }
+
+  .company-details > p:last-child {
+    opacity: 100%;
+  }
 }
