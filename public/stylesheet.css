@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black !important;
+  background-color: black;
   font-family: Comfortaa;
   padding: 28px;
   color: white;
@@ -602,6 +602,10 @@ body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div 
 /****************************************/
 /***** NAV BAR - HORIZONTAL VERSION *****/
 /****************************************/
+#nav-mini {
+  display: none;
+}
+
 #nav-bar {
   text-align: center;
   position: fixed;
@@ -629,36 +633,4 @@ body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div 
 
 #nav-bar > a:hover {
   color: var(--deepskyblue);
-}
-
-/**********************************/
-/***** NAV - MINIFIED VERSION *****/
-/**********************************/
-
-#menu {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-#menu-button {
-  font-size: 30px;
-  font-family: Comfortaa;
-  font-weight: bold;
-  color: white;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
-}
-
-#menu-button:hover {
-  color: var(--deepskyblue);
-  cursor: pointer;
-}
-
-#menu-drawer {
-  visibility: hidden;
 }
