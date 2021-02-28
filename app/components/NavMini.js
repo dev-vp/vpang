@@ -27,7 +27,7 @@ class NavMini extends React.Component{
     return (
       <div id="nav-mini">
         <button id="menu-button" type="button" onClick={this.handleOnClick} ><img src="./menu-button-mobile.png" /></button>
-        <div id="menu-drawer">
+        <div id="menu-drawer" style={{left: '-128px'}}>
           <Link to="/" id="mini-nav-home" onClick={this.handleLinkClick}>Home</Link>
           <Link to="/about" id="mini-nav-about" onClick={this.handleLinkClick}>About Me</Link>
           <Link to="/experience" id="mini-nav-experience" onClick={this.handleLinkClick}>Experience</Link>

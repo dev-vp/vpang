@@ -8763,7 +8763,10 @@ var NavMini = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("img", {
         src: "./menu-button-mobile.png"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement("div", {
-        id: "menu-drawer"
+        id: "menu-drawer",
+        style: {
+          left: '-128px'
+        }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
         to: "/",
         id: "mini-nav-home",
