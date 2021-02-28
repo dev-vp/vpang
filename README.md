@@ -1,1 +1,1 @@
-Deployed here: [https://vpang.herokuapp.com/projects](https://vpang.herokuapp.com/projects)
+Deployed here: [https://vpang.herokuapp.com/](https://vpang.herokuapp.com/)
