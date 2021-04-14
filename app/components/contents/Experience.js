@@ -9,6 +9,18 @@ class Experience extends React.Component{
         <div id="experience-wrapper">
           <TechStack />
           <div id="work-experience">
+            <div id="rd" className="company">
+              <div className="employed-year">
+                <h3 className="tiffany">2020 - Present</h3>
+              </div>
+              <div className="company-details">
+                <h3>CLRD</h3>
+                <h4>Owner</h4>
+                <p className="gray-italics">--</p>
+                <p id="rd-details">An online magazine featuring articles related to automotive culture and motorsports. I handle everything from content creation, SEO optimization, graphic design/illustration (i.e. logos, images, diagrams, etc.), site maintenance, and product design.
+                </p>
+              </div>
+            </div>
             <div id="deutsche" className="company">
               <div className="employed-year">
                 <h3 className="tiffany">2016 - 2020</h3>
