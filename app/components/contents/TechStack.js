@@ -13,6 +13,7 @@ class TechStack extends React.Component{
             <li>Redux</li>
             <li>Node</li>
             <li>Express</li>
+            <li>SQL</li>
             <li>Sequelize</li>
             <li>Git / GitHub</li>
             <li>Photoshop</li>
@@ -28,6 +29,7 @@ class TechStack extends React.Component{
             <li>Docker</li>
             <li>PostgresSQL</li>
             <li>MySQL</li>
+            <li>SQLite</li>
             <li>Jasemine</li>
             <li>Mocha</li>
             <li>Chai</li>

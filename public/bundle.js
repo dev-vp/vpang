@@ -9280,10 +9280,7 @@ var Home = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "Born and raised in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", {
         id: "new-york",
         className: "deepsky"
-      }, "New York"), ","), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "and"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("h2", null, "currently residing in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement("span", {
-        id: "japan",
-        className: "red"
-      }, "Japan"), ".")));
+      }, "New York"), ".")));
     }
   }]);
 
