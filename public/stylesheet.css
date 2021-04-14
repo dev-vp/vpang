@@ -19,6 +19,10 @@ a {
   color: white;
 }
 
+p, li {
+  line-height: 1.5rem;
+}
+
 .tiffany {
   color: var(--tiffany);
 }
