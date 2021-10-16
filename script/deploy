@@ -12,7 +12,7 @@ trap cleanup_at_exit EXIT
 
 git checkout -b deploy
 
-webpack -p
+webpack --mode production
 
 git add -f public/bundle.js public/bundle.js.map
 
