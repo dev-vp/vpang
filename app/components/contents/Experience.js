@@ -9,7 +9,7 @@ class Experience extends React.Component{
         <div id="experience-wrapper">
           <TechStack />
           <div id="work-experience">
-            <div id="rd" className="company">
+            {/* <div id="rd" className="company">
               <div className="employed-year">
                 <h3 className="tiffany">2020 - Present</h3>
               </div>
@@ -18,6 +18,18 @@ class Experience extends React.Component{
                 <h4>Owner</h4>
                 <p className="gray-italics">--</p>
                 <p id="rd-details">An online magazine featuring articles related to automotive culture and motorsports. I handle everything from content creation, SEO optimization, graphic design/illustration (i.e. logos, images, diagrams, etc.), site maintenance, and product design.
+                </p>
+              </div>
+            </div> */}
+            <div id="rd" className="company">
+              <div className="employed-year">
+                <h3 className="tiffany">2021 - Present</h3>
+              </div>
+              <div className="company-details">
+                <h3>Citigroup Global Markets Japan</h3>
+                <h4>ICRM - Surveillance</h4>
+                <p className="gray-italics">Okinawa, Japan</p>
+                <p id="rd-details">Primarily responsible for communication surveillence reviews and workflow management. Additionally, coordinate and contribute to efforts relating to enhancment and integration of Natural Language Processing (NLP), Voice Transcription Engine, and Language Pack Refinements.
                 </p>
               </div>
             </div>
